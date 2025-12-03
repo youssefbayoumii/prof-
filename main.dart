@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'onboarding/onboarding1.dart';
-import 'onboarding/onboarding2.dart';
-import 'onboarding/onboarding3.dart';
-import 'onboarding/onboarding4.dart';
-import 'pages/login_page.dart';
+import 'onboarding1.dart';
+import 'onboarding2.dart';
+import 'onboarding3.dart';
+import 'onboarding4.dart';
+import 'login_page.dart';
 
 void main() {
   runApp(const MyApp());

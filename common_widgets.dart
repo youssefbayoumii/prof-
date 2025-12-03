@@ -15,8 +15,5 @@ Widget onboardingTextBlock(String title, String subtitle) {
 }
 
 Widget nextButton(VoidCallback onTap, {String text = "Next"}) {
-  return ElevatedButton(
-    onPressed: onTap,
-    child: Text(text),
-  );
+  return ElevatedButton(onPressed: onTap, child: Text(text));
 }
